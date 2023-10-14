@@ -88,6 +88,10 @@ header .body {
     padding: 8px 19.5px;
 }
 
+.list .active {
+    text-shadow: 1px 0 0 #171100;
+
+}
 .header .list a:hover {
     text-shadow: 1px 0 0 #171100;
 }
@@ -231,7 +235,14 @@ header .body {
     color: #0D1111;
     font-size: 10px;
     font-weight: 500;
-    }
+}
+
+.hero .block-img p span {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+
 
 .hero .student .users {
     margin-top: 8px;
@@ -402,7 +413,7 @@ header .body {
     bottom: 70px;
 }
 
-.list-popular .info .title {
+.list-popular .info .title a{
     color: #0D1111;
     font-size: 2.2rem;
     font-weight: 700;
